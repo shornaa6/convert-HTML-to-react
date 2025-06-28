@@ -1,4 +1,4 @@
-import React from 'react';
+import heroImg from "../../src/assets/hero.png";
 
 export default function Hero() {
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
                 </div>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="./assets/hero.png" alt="hero image"/>
+                <img src={heroImg} alt="hero image"/>
             </div>
         </div>
     </section>
